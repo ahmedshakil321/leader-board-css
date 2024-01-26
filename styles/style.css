@@ -1,0 +1,119 @@
+/* utilities */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  width: 1440px;
+  height: 1220px;
+  background-color: #f3f1ff;
+}
+/* ............
+      navbar styles......... */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 94px;
+  flex-shrink: 0;
+  background: #562eff;
+}
+.nav-1 {
+  display: flex;
+  margin-left: 280px;
+  margin-top: 27px;
+}
+
+.nav-1 img {
+  width: 40.424px;
+  height: 51px;
+  margin-right: 7px;
+}
+
+.nav-2 img {
+  width: 50px;
+  height: 51px;
+  padding-bottom: 20px;
+}
+.nav-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 280px;
+  margin-top: 27px;
+  align-items: center;
+}
+
+.nav-items {
+  padding: 10px;
+}
+
+/* ............
+      top section styles......... */
+
+.top {
+  width: 870px;
+  height: 679px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  margin: 36px 280px 50px 280px;
+  padding: 40px;
+}
+
+.section-title {
+  color: #562eff;
+
+  font-family: Poppins;
+  font-size: 24px;
+}
+
+/* players section styles */
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.player img {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+}
+
+/* blogs section style */
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 15px;
+}
+
+.blog {
+  display: flex;
+  gap: 15px;
+}
+
+.imgholder img {
+  width: 220px;
+  height: 141px;
+}
+
+/* courses section styles */
+.t-courses {
+  width: 870px;
+  height: 362px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 36px 280px 50px 280px;
+  padding: 10px;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+}
+
+.course-detail {
+  display: flex;
+  gap: 30px;
+  /* justify-content: space-between; */
+}
