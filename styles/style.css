@@ -20,7 +20,13 @@ body {
 .nav-1 {
   display: flex;
   margin-left: 280px;
-  margin-top: 27px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.nav-items {
+  font-size: 24px;
+  color: #fff;
 }
 
 .nav-1 img {
@@ -38,8 +44,8 @@ body {
   display: flex;
   justify-content: space-around;
   margin-right: 280px;
-  margin-top: 27px;
-  align-items: center;
+  margin-top: 15px;
+  align-items: flex-end;
 }
 
 .nav-items {
@@ -56,7 +62,7 @@ body {
   border-radius: 5px;
   background: #fff;
   margin: 36px 280px 50px 280px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .section-title {
@@ -70,8 +76,16 @@ body {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
 }
-
+.player {
+  display: flex;
+  gap: 15px;
+}
+.player h3 {
+  font-size: 15px;
+}
 .player img {
   width: 56px;
   height: 56px;
@@ -97,6 +111,23 @@ body {
   height: 141px;
 }
 
+.info-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.author {
+  color: #562eff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.by {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 400;
+}
 /* courses section styles */
 .t-courses {
   width: 870px;
@@ -104,7 +135,7 @@ body {
   border-radius: 5px;
   background: #fff;
   margin: 36px 280px 50px 280px;
-  padding: 10px;
+  padding: 20px;
 }
 .courses {
   display: grid;
@@ -116,4 +147,16 @@ body {
   display: flex;
   gap: 30px;
   /* justify-content: space-between; */
+}
+
+.ratings {
+  color: rgb(251, 182, 6);
+}
+
+.duration {
+  color: orangered;
+}
+
+.clock {
+  margin-right: 5px;
 }
